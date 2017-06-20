@@ -191,7 +191,7 @@ ul {
     list-style-type: disc;
 }
 
-ul > p{
+.written-text .ul p{
   margin: 0px;
 }
 
