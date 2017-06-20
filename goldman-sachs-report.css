@@ -1,0 +1,197 @@
+.letterhead{
+  color: white;
+  background: #5F3890;
+  padding-left: 60px;
+}
+
+ * {
+	  box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+ }
+
+ .page {
+    margin: 10mm auto;
+	  position: relative;
+	  width: 210mm;
+	  min-height: 297mm;
+    padding-left: 0px;
+	  /* border: 1px #D3D3D3 solid; */
+	  border-radius: 10px;
+	  background: white;
+    font-family: Helvetica;
+	  /* box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); */
+ }
+
+.page > p{
+  margin: 0;
+  
+}
+ .subpage {
+	  border: 5px #ccc solid;
+	  height: 257mm;
+	  outline: 2cm whitesmoke solid;
+    background: white;
+ }
+
+ @page {
+	  size: A4;
+    margin: 0;
+    padding: 0;
+ }
+
+.button{
+   border-bottom: none;
+}
+
+ @media print{
+	  html, body {
+			width: 211mm;
+			height: 297mm;
+	  }
+   .subpage{
+     outline: none;
+     border: #ffffff solid;
+   }
+	  .page {
+      margin: 0px;
+      margin-top: 1px;
+			border: initial;
+			border-radius: initial;
+			width: initial;
+			min-height: initial;
+			box-shadow: initial;
+			background: initial;
+			page-break-after: always;
+	  }   
+    .no-print, .no-print * {
+        display: none !important;
+    }	 
+ }
+
+h1, h5, h6{ margin: 0 }
+
+h6{ font-size: 1.425rem }
+
+.strongPurple{
+  color: #5F3890;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.row{
+  margin-right: 50px;
+  margin-left: 30px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.firstPage{
+  margin-top:10px;
+  border-top: solid #7a57a5;
+  border-bottom: solid #7a57a5;
+  border-width: 0.5px;
+}
+
+.firstLeft > p{
+  font-size: 0.77em;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.firstLeft{
+  line-height: 100%;
+}
+
+.contact > strong{ 
+  font-size: 0.7em;
+  margin:0;
+}
+
+.contact > p{
+  font-size: 0.65em;
+  margin: 0;
+  margin-bottom: 5px;
+  line-height: 75%;
+}
+
+.contact {
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 600px;
+  display: block;
+  height: px;
+  background: #DEDFDF;
+  line-height: 130%;
+}
+
+.header-text{
+  border-bottom: solid #7a57a5;
+  border-width: 0.5px;
+  margin-left: 50px;
+  margin-top: 70px;
+  margin-right: 50px;
+  margin-bottom: 5px;
+  font-size: 0.2em !important;
+}
+
+.header-text > h1{
+  font-weight: bold;
+  font-size: 2.1rem; 
+}
+
+.written-text{
+  float: right;
+  margin-right: 50px;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.written-text > p{
+  margin:0;
+}
+
+.written-text > h6{
+  margin: 0;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.Test-this{
+  margin: 0px;  
+}
+
+.first{
+  margin-top: 25px;
+}
+
+.title {
+    border-top: solid #000000;
+    border-width: 0.5px;
+    line-height: 125%;
+    font-size: 1.3rem;
+}
+
+.exhibit{
+    border: 0;
+    border-bottom: solid #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-width: 0.5px;
+}
+
+.no-header{
+    margin-top: 60px;
+}
+
+ul {
+    list-style-position: outside;  
+    list-style-type: disc;
+}
+
+ul > p{
+  margin: 0px;
+}
+
