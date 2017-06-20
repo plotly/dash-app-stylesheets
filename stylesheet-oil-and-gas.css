@@ -44,7 +44,7 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 2%; }
+    margin-left: 0.5%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
