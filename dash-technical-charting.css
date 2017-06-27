@@ -15,6 +15,12 @@
 - Media Queries
 */
 
+/* PLotly.js
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* plotly.js's modebar's z-index is outta the roof by default - lower it down */
+.js-plotly-plot .plotly .modebar {
+    z-index: 0 important!;
+}
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -44,23 +50,23 @@
     width: 80%; }
   .column,
   .columns {
-    margin-left: 0.5%; }
+    margin-left: 4%; }
   .column:first-child,
   .columns:first-child {
     margin-left: 0; }
 
   .one.column,
-  .one.columns                    { width: 8%;             }
-  .two.columns                    { width: 16.25%;         }
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 33%;            }
+  .four.columns                   { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
-  .six.columns                    { width: 49.75%;          }
+  .six.columns                    { width: 48%;            }
   .seven.columns                  { width: 56.6666666667%; }
-  .eight.columns                  { width: 66.5%;          }
+  .eight.columns                  { width: 65.3333333333%; }
   .nine.columns                   { width: 74.0%;          }
   .ten.columns                    { width: 82.6666666667%; }
-  .eleven.columns                 { width: 91.5%; }
+  .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
 
   .one-third.column               { width: 30.6666666667%; }
@@ -231,7 +237,7 @@ select {
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   font-family: inherit;
   font-size: inherit; /*https://stackoverflow.com/questions/6080413/why-doesnt-input-inherit-the-font-from-body*/}
 /* Removes awkward default styles on some inputs for iOS */
