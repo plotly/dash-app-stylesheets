@@ -155,7 +155,9 @@ blockquote {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #1EAEDB;
+  cursor: pointer;
+  text-decoration: underline;}
 a:hover {
   color: #0FA0CE; }
 
