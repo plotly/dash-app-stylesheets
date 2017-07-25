@@ -101,6 +101,10 @@ body{
     z-index: -100;
 }
 
+.wind-speed-row .wind-speed .js-plotly-plot .plot-container .svg-container .modebar{
+    z-index: -100;
+}
+
 .wind-histo-polar .wind-histogram{
     border-radius: 5px;
     width: 68.4%;
