@@ -136,24 +136,3 @@ body{
 .wind-histo-polar{
     margin-bottom: 0px;  
 }
-
-.wind-histo-polar .wind-polar .cardinalN{
-  height: 0px;
-  margin: 0;
-  z-index: 100000000;
-}
-
-.wind-histo-polar .wind-polar .cardinalS{
-  height: 0px;
-  margin: 0;
-}
-
-.wind-histo-polar .wind-polar .cardinalE{
-  height: 0px;
-  margin: 0;
-}
-
-.wind-histo-polar .wind-polar .cardinalW{
-  height: 0px;
-  margin: 0;
-}
