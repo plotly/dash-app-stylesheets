@@ -224,6 +224,7 @@ input[type="button"].button-primary:focus {
 
 /* Forms
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+input,
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -243,6 +244,7 @@ select {
   font-family: inherit;
   font-size: inherit; /*https://stackoverflow.com/questions/6080413/why-doesnt-input-inherit-the-font-from-body*/}
 /* Removes awkward default styles on some inputs for iOS */
+input,
 input[type="email"],
 input[type="number"],
 input[type="search"],
@@ -258,6 +260,7 @@ textarea {
   min-height: 65px;
   padding-top: 6px;
   padding-bottom: 6px; }
+input:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="search"]:focus,
